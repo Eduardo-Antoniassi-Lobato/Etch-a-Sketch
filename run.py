@@ -22,5 +22,7 @@ input("Press 'enter' to start.")
 sketch_pen = Turtle() 
 screen = Screen()
 
-
+# draws forwards
+def move_forwards():
+    sketch_pen.forward(10)
 
