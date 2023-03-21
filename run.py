@@ -55,5 +55,10 @@ def exit_game():
 screen.listen()
 # connects "Up" key to move_forwards function
 screen.onkey(move_forwards, "Up")
-
-
+# connects "Down" key to move_backwards function
+screen.onkey(move_backwards, "Down")
+screen.onkey(turn_left, "Left")
+screen.onkey(turn_right, "Right")
+screen.onkey(clear, "c")
+screen.onkey(exit_game, "space")
+screen.exitonclick()
