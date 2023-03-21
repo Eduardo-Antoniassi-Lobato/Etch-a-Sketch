@@ -63,4 +63,6 @@ screen.onkey(turn_left, "Left")
 screen.onkey(turn_right, "Right")
 # connects "c" key to clear function
 screen.onkey(clear, "c")
+# exits game on "space" key
+screen.onkey(exit_game, "space")
 
