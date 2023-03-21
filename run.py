@@ -51,4 +51,7 @@ def clear():
 def exit_game():
     screen.bye()
 
+# adds eventListener to screen
+screen.listen()
+
 
