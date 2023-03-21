@@ -61,5 +61,6 @@ screen.onkey(move_backwards, "Down")
 screen.onkey(turn_left, "Left")
 # connects "right" key to turn_right function
 screen.onkey(turn_right, "Right")
-
+# connects "c" key to clear function
+screen.onkey(clear, "c")
 
