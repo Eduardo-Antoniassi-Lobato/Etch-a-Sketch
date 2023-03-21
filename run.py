@@ -47,4 +47,8 @@ def clear():
     s.home()
     s.pendown()
 
+# exits Game
+def exit_game():
+    screen.bye()
+
 
