@@ -59,7 +59,7 @@ screen.onkey(move_forwards, "Up")
 screen.onkey(move_backwards, "Down")
 # connects "Left" key to turn_left function
 screen.onkey(turn_left, "Left")
+# connects "right" key to turn_right function
 screen.onkey(turn_right, "Right")
-screen.onkey(clear, "c")
-screen.onkey(exit_game, "space")
-screen.exitonclick()
+
+
