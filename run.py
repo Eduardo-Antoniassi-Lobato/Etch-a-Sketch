@@ -26,3 +26,7 @@ screen = Screen()
 def move_forwards():
     sketch_pen.forward(10)
 
+# draws backwards
+def move_backwards():
+    sketch_pen.backward(10)
+
