@@ -39,7 +39,12 @@ def turn_left():
 def turn_right():
     new_heading = s.heading() - 10
     sketch_pen.setheading(new_heading)
-    
 
+# clears GUI and centers sketch pen again     
+def clear():
+    s.clear()
+    s.penup()
+    s.home()
+    s.pendown()
 
 
