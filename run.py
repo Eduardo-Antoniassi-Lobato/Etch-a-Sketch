@@ -57,6 +57,7 @@ screen.listen()
 screen.onkey(move_forwards, "Up")
 # connects "Down" key to move_backwards function
 screen.onkey(move_backwards, "Down")
+# connects "Left" key to turn_left function
 screen.onkey(turn_left, "Left")
 screen.onkey(turn_right, "Right")
 screen.onkey(clear, "c")
