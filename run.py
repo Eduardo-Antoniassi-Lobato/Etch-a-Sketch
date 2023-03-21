@@ -30,3 +30,8 @@ def move_forwards():
 def move_backwards():
     sketch_pen.backward(10)
 
+# points pen to left
+def turn_left():
+    new_heading = s.heading() + 10
+    sketch_pen.setheading(new_heading)
+
