@@ -35,3 +35,11 @@ def turn_left():
     new_heading = s.heading() + 10
     sketch_pen.setheading(new_heading)
 
+# points pen to the right
+def turn_right():
+    new_heading = s.heading() - 10
+    sketch_pen.setheading(new_heading)
+    
+
+
+
