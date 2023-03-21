@@ -7,4 +7,8 @@ logo = """
                                                                                                                                  
 """
 print(logo)
-
+print("Welcome to Etch-a-Sketch !")
+print("Use the arrows to sketch.")
+print("Press 'c' to clear the screen and start drawing again.")
+print("Press 'space' or click over the screen to end the game.")
+input("Press 'enter' to start.")
