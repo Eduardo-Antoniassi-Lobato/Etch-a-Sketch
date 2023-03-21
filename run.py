@@ -53,5 +53,7 @@ def exit_game():
 
 # adds eventListener to screen
 screen.listen()
+# connects "Up" key to move_forwards function
+screen.onkey(move_forwards, "Up")
 
 
